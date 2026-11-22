@@ -1,0 +1,29 @@
+# Build output
+build/
+**/build/
+.gradle/
+.idea/
+*.iml
+out/
+*.class
+
+# Runtime leftovers
+logs/
+**/logs/
+cache/
+**/cache/
+crash-reports/
+**/crash-reports/
+backups/
+**/backups/
+*.log
+*.log.gz
+*.err
+*.out
+*.bak
+*.rar
+.console_history
+usercache.json
+
+# Server runtime is kept on its own branch
+/server/

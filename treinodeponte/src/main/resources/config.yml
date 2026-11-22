@@ -1,0 +1,9 @@
+modes:
+  Solo:
+    directory: solo
+    min: 0
+    max: 500
+  Global:
+    directory: global
+    min: 0
+    max: 100

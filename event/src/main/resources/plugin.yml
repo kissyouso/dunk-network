@@ -1,0 +1,4 @@
+name: Eventos
+version: 1.0.0
+authors: [kwqz]
+main: com.minecraft.event.Events

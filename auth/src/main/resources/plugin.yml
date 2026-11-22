@@ -1,0 +1,4 @@
+name: Auth
+authors: [kwqz]
+version: 0.0.1
+main: com.minecraft.auth.Auth

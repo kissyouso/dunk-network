@@ -1,0 +1,6 @@
+name: thebridge
+version: 0.0.1
+authors: [pwrfect]
+main: com.minecraft.arcade.thebridge.TheBridge
+softdepend:
+  - SlimeWorldManager

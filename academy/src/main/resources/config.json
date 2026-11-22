@@ -1,0 +1,49 @@
+{
+  "arenas": {
+    "Timers": {
+      "enabled": true
+    },
+    "Lava": {
+      "enabled": true
+    },
+    "Damage": {
+      "enabled": true
+    },
+    "Texture": {
+      "enabled": true
+    },
+    "default": "Timers"
+  },
+  "timers": {
+    "timeout-seconds": 60,
+    "record-coins": 5
+  },
+  "lava": {
+    "FACIL": {
+      "coins": 5,
+      "minimum-seconds": 10
+    },
+    "MEDIO": {
+      "coins": 10,
+      "minimum-seconds": 20
+    },
+    "DIFICIL": {
+      "coins": 20,
+      "minimum-seconds": 30
+    },
+    "EXTREMO": {
+      "coins": 40,
+      "minimum-seconds": 45
+    }
+  },
+  "damage": {
+    "start-block": "STAINED_CLAY",
+    "start-block-data": 4,
+    "drops-interval-ticks": 100,
+    "armor-reduction": 0.6,
+    "coins-per-minute": 2
+  },
+  "texture": {
+    "allow-flight": false
+  }
+}

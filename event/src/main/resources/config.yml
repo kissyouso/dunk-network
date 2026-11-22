@@ -1,0 +1,41 @@
+# Configuração do servidor de eventos.
+# Locais (spawn, camarote, entradas, arenas) ficam em locations.yml e são definidos com /evento set.
+
+chamadas:
+  # Quantas chamadas são feitas antes do evento começar e o intervalo entre elas (segundos).
+  quantidade: 5
+  intervalo: 30
+  # Mínimo de jogadores para o evento começar (senão é cancelado).
+  minimo-jogadores: 2
+
+# Permite /evento assistir (camarote) durante os eventos.
+camarote: true
+
+# Tempo máximo (segundos) de cada evento. Ao acabar o tempo, o evento termina sem vencedor
+# (no Killer vence quem tiver mais vida). Cada luta do Sumo/Fight também tem 90s: perde quem tiver menos vida.
+tempo-maximo:
+  SUMO: 600
+  FIGHT: 900
+  SPLEEF: 300
+  PARKOUR: 300
+  SEMAFORO: 300
+  BATATA_QUENTE: 600
+  KILLER: 600
+
+# Comandos executados pelo console no vencedor. Use {player} para o nick.
+# Exemplo: - "eco give {player} 1000"
+recompensas:
+  SUMO: []
+  FIGHT: []
+  SPLEEF: []
+  PARKOUR: []
+  SEMAFORO: []
+  BATATA_QUENTE: []
+  KILLER: []
+
+# Eventos automáticos: "HH:mm TIPO" (use ALEATORIO para sortear o tipo).
+agenda:
+  ativa: false
+  horarios:
+    - "15:00 ALEATORIO"
+    - "21:00 ALEATORIO"

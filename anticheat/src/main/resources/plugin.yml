@@ -1,0 +1,15 @@
+name: DunkACBridge
+version: 1.0.0
+main: com.dunk.anticheat.DunkACBridge
+description: Ponte dos alertas do Anticheat para o proxy da Rede Style.
+
+commands:
+  dunkacbridge:
+    description: Ponte interna de alertas do anticheat
+    usage: /<command> flag <uuid> <vl> <ping> <check>
+    permission: dunkanticheat.admin
+
+permissions:
+  dunkanticheat.admin:
+    description: Permite usar a ponte de alertas
+    default: op

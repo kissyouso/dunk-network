@@ -1,0 +1,6 @@
+name: DunkSkyWars
+author: Px
+version: 2.3
+main: com.minecraft.arcade.skywars.SkyWars
+depend:
+  - ProtocolLib

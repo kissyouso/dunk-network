@@ -1,0 +1,106 @@
+modes:
+  Solo:
+    directory: solo
+    min: 8
+    max: 8
+  Duo:
+    directory: duo
+    min: 8
+    max: 8
+  Trio:
+    directory: trio
+    min: 8
+    max: 8
+  Quartet:
+    directory: quartet
+    min: 8
+    max: 8
+  SoloVersus:
+    directory: soloversus
+    min: 8
+    max: 8
+  DuoVersus:
+    directory: duoversus
+    min: 8
+    max: 8
+  TrioVersus:
+    directory: trioversus
+    min: 8
+    max: 8
+  QuartetVersus:
+    directory: quartetversus
+    min: 8
+    max: 8
+
+# Bots de treino: entidades do próprio servidor que completam a sala quando
+# faltam jogadores humanos. Eles não são jogadores falsos: apanham, constroem,
+# defendem a cama e morrem de verdade, mas são mobs controlados pelo plugin.
+bots:
+  enabled: true
+  # false = só entra bot quando existe um humano sozinho; true = completa qualquer sala curta.
+  fill-short-rooms: true
+  fill-teammates: true
+  # true = todos os bots no MESMO time livre (o "time adversário" contra quem
+  # está sozinho); espalhados, eles se caçam e a sala acaba antes de chegar em
+  # alguém. false = um bot por time livre, respeitando max-per-team.
+  group-in-one-team: true
+  # Time do agrupamento por código do preset (ROSA, AMARELO, AZUL...). Vazio =
+  # o primeiro time sem humano da sala.
+  team: ''
+  max-total: 4
+  max-per-team: 1
+  respawn-seconds: 10
+  # atributo de velocidade da entidade (0.23 ~ velocidade de jogador andando)
+  speed: 0.23
+  # RUSH | DEFENSIVE | AGGRESSIVE | TACTICAL | BRIDGER | PVP_MASTER | SURVIVAL
+  mode: TACTICAL
+  suffix: '§8[§7BOT§8]'
+
+  bridge:
+    # STRAIGHT | DIAGONAL | NINJA | GOD | SPEED | BREEZILY | MOONWALK | ANDROMEDA
+    style: DIAGONAL
+    blocks-per-second: 2.0
+    capacity: 96
+
+  combat:
+    engage-distance: 12.0
+    attack-distance: 3.0
+    # intensidade do deslocamento lateral durante a troca de dano (0 desliga)
+    strafe: 0.5
+    circle-strafe: true
+    # impulso extra aplicado em quem apanha do bot (0 = knockback vanilla)
+    knockback: 0.45
+    leap: true
+    # recuo curto depois de cada acerto, para o bot não "grudar" no alvo
+    block-hit: true
+    retreat-health: 7.0
+    max-health: 20.0
+    attack-damage: 4.0
+
+  strategy:
+    guard-bed: true
+    attack-beds: true
+    bed-break-seconds: 2.0
+    buy-upgrades: true
+
+  economy:
+    iron-per-second: 1
+    gold-per-second: 0.2
+    wool-cost-iron: 4
+    wool-blocks: 16
+
+  credit:
+    # matar bot não entra no top da partida nem dá XP por padrão, senão a sala
+    # vira fazenda de estatística
+    kills-in-top: false
+    xp: false
+
+  names:
+    - Ferro-Velho
+    - Ponte-Seca
+    - Cutelo
+    - Maré-Alta
+    - Tijolo
+    - Brasa
+    - Estrepado
+    - Cacto
