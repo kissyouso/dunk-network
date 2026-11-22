@@ -1,0 +1,98 @@
+# Skins da biblioteca do wSkin.
+# Você pode usar de 2 jeitos:
+# 1) skin: NickPremium -> o plugin busca na Mojang.
+# 2) name_value/name_signature ou texture.value/texture.signature -> textura fixa, não muda se a conta trocar de skin.
+#
+# Exemplo de textura fixa:
+# skins:
+#   exemplo:
+#     name: '&aExemplo'
+#     category: personagens
+#     name_value: 'COLE_AQUI_O_VALUE'
+#     name_signature: 'COLE_AQUI_A_SIGNATURE'
+#     lore:
+#     - '&7Fonte: &fBiblioteca fixa'
+#     - '&eClique para usar.'
+
+skins:
+  steve:
+    name: '&aSteve'
+    skin: Steve
+    category: personagens
+    name_value: ''
+    name_signature: ''
+    lore:
+    - '&7Fonte: &fBiblioteca'
+    - '&eClique para usar.'
+  alex:
+    name: '&aAlex'
+    skin: Alex
+    category: personagens
+    name_value: ''
+    name_signature: ''
+    lore:
+    - '&7Fonte: &fBiblioteca'
+    - '&eClique para usar.'
+  herobrine:
+    name: '&fHerobrine'
+    skin: Herobrine
+    category: personagens
+    name_value: ''
+    name_signature: ''
+    lore:
+    - '&7Fonte: &fBiblioteca'
+    - '&eClique para usar.'
+  dream:
+    name: '&aDream'
+    skin: Dream
+    category: youtubers
+    name_value: ''
+    name_signature: ''
+    lore:
+    - '&7Fonte: &fBiblioteca'
+    - '&eClique para usar.'
+  technoblade:
+    name: '&dTechnoblade'
+    skin: Technoblade
+    category: youtubers
+    name_value: ''
+    name_signature: ''
+    lore:
+    - '&7Fonte: &fBiblioteca'
+    - '&eClique para usar.'
+  notch:
+    name: '&6Notch'
+    skin: Notch
+    category: youtubers
+    name_value: ''
+    name_signature: ''
+    lore:
+    - '&7Fonte: &fBiblioteca'
+    - '&eClique para usar.'
+  papainoel:
+    name: '&cPapai Noel'
+    skin: Santa
+    category: comemorativos
+    name_value: ''
+    name_signature: ''
+    lore:
+    - '&7Fonte: &fBiblioteca'
+    - '&eClique para usar.'
+  coelho:
+    name: '&fCoelho'
+    skin: Bunny
+    category: comemorativos
+    name_value: ''
+    name_signature: ''
+    lore:
+    - '&7Fonte: &fBiblioteca'
+    - '&eClique para usar.'
+  abobora:
+    name: '&6Abóbora'
+    skin: Pumpkin
+    category: comemorativos
+    name_value: ''
+    name_signature: ''
+    lore:
+    - '&7Fonte: &fBiblioteca'
+    - '&eClique para usar.'

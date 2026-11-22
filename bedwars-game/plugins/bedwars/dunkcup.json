@@ -1,0 +1,17 @@
+{
+  "state": "REGISTRATION",
+  "registrations": [],
+  "participants": [],
+  "matches": [],
+  "appliedRewards": [],
+  "rewardKeys": {},
+  "deliveredKeys": [],
+  "npcX": 0.0,
+  "npcY": 0.0,
+  "npcZ": 0.0,
+  "npcYaw": 0.0,
+  "npcPitch": 0.0,
+  "createdAt": 1792870620744,
+  "finishedAt": 0,
+  "autoStartAt": 0
+}

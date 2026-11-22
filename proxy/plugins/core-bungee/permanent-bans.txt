@@ -1,0 +1,4 @@
+# Nomes que devem permanecer banidos mesmo se alguem usar /despunir.
+# O ban permanente e reaplicado no proximo login da conta.
+# Reinicie o proxy depois de editar este arquivo.
+SaullSkiller

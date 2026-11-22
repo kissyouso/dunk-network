@@ -1,0 +1,5 @@
+# MOTDs do servidor, uma por bloco separada por ---
+# Primeira linha do bloco = titulo, demais = descricao
+
+§f§e§l✤ §6§lDUNK §e§l✤
+§e§lVENHA JOGAR NA §1§lBETA§e§l!

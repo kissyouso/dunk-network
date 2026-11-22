@@ -1,0 +1,18 @@
+file:
+    path: maps
+mysql:
+    enabled: false
+    host: "CHANGE_ME"
+    port: 3306
+    username: "CHANGE_ME"
+    password: "CHANGE_ME"
+    database: slimeworldmanager
+mongodb:
+    enabled: false
+    host: "CHANGE_ME"
+    port: 27017
+    auth: admin
+    username: "CHANGE_ME"
+    password: "CHANGE_ME"
+    database: slimeworldmanager
+    collection: worlds

@@ -1,0 +1,48 @@
+upgrade:
+  sharpnedswords:
+    slot: 10
+    type: SHARPENED_SWORDS
+    icon: 'DIAMOND_SWORD : 1 : esconder>tudo : nome>{color}&cEspadas Afiadas : desc>&7Seus aliados ganham Afiação I.\n \n&7Nível I: Afiação I, &b4 Diamantes'
+    tiers:
+      I: 'DIAMOND : 4'
+  reinforcedarmor:
+    slot: 11
+    type: REINFORCED_ARMOR
+    icon: 'IRON_CHESTPLATE : 1 : nome>{color}&cArmadura Reforçada &e{tier} : desc>&7Todas as armaduras recebem proteção.\n \n&7I: &b2 &7II: &b4 &7III: &b8 &7IV: &b16 Diamantes'
+    tiers:
+      I: 'DIAMOND : 2'
+      II: 'DIAMOND : 4'
+      III: 'DIAMOND : 8'
+      IV: 'DIAMOND : 16'
+  maniacminer:
+    slot: 19
+    type: MANIAC_MINER
+    icon: 'GOLD_PICKAXE : 1 : esconder>tudo : nome>{color}&cMinerador Louco &e{tier} : desc>&7Todos ganham Pressa.\n \n&7I: &b2 &7II: &b4 Diamantes'
+    tiers:
+      I: 'DIAMOND : 2'
+      II: 'DIAMOND : 4'
+  ironforge:
+    slot: 12
+    type: IRON_FORGE
+    icon: 'FURNACE : 1 : nome>{color}&cForja de Ferro &e{tier} : desc>&7Aumenta a qualidade dos recursos.\n \n&7I: &b2 &7II: &b4 &7III: &b6 &7IV: &b8 Diamantes'
+    tiers:
+      I: 'DIAMOND : 2'
+      II: 'DIAMOND : 4'
+      III: 'DIAMOND : 6'
+      IV: 'DIAMOND : 8'
+  heal:
+    slot: 14
+    type: REGENERATION
+    icon: 'BEACON : 1 : nome>{color}Campo de regeneração : desc>&7Regeneração na ilha.\n \n&7Nível I: &b2 Diamantes'
+    tiers:
+      I: 'DIAMOND : 2'
+  life_points:
+    slot: 15
+    type: LIFE_POINTS
+    icon: 'GOLDEN_APPLE : 1 : nome>{color}Pontos de Vida : desc>&7Corações extras.\n \n&7I: &b2 &7II: &b4 Diamantes'
+    tiers:
+      I: 'DIAMOND : 2'
+      II: 'DIAMOND : 4'
+  trap:
+    slot: 16
+    icon: 'LEATHER : 1 : nome>&eComprar Armadilhas : desc>&7Armadilhas compradas serão colocadas\n&7na fila abaixo.\n \n&eClique para comprar!'

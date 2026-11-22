@@ -1,0 +1,66 @@
+commands:
+  shop:
+    enabled: true
+    permission: wbedwars.command.shop
+    no-permission: '&cVocê não possui permissão.'
+    message:
+      - '&8&m-------------------------'
+      - '&bLoja Oficial'
+      - '&fhttps://loja.korax.com.br'
+      - '&8&m-------------------------'
+
+  discord:
+    enabled: true
+    permission: wbedwars.command.discord
+    no-permission: '&cVocê não possui permissão.'
+    message:
+      - '&8&m-------------------------'
+      - '&bDiscord Oficial'
+      - '&fdiscord.gg/korax'
+      - '&8&m-------------------------'
+
+  ping:
+    enabled: true
+    permission: wbedwars.command.ping
+    no-permission: '&cVocê não possui permissão.'
+    message: '&bSeu ping: &f%ping%ms'
+
+  feed:
+    enabled: true
+    permission: wbedwars.command.feed
+    no-permission: '&cVocê não possui permissão.'
+    message: '&aSua fome foi restaurada.'
+
+  heal:
+    enabled: true
+    permission: wbedwars.command.heal
+    no-permission: '&cVocê não possui permissão.'
+    message: '&aSua vida foi restaurada.'
+
+  gamemode:
+    enabled: true
+    permission: wbedwars.command.gamemode
+    no-permission: '&cVocê não possui permissão.'
+    use: '&cUse: /gm <0|1|2|3>'
+    changed: '&aSeu modo de jogo foi alterado para &f%gamemode%&a.'
+
+  fly:
+    enabled: true
+    permission: wbedwars.command.fly
+    no-permission: '&cVocê não possui permissão.'
+
+  trem:
+    enabled: true
+    permission: wbedwars.command.trem
+    no-permission: '&cVocê não possui permissão para criar trem.'
+    only-lobby: '&cVocê só pode usar /trem no lobby.'
+    use: '&cUse: /trem <numero>'
+    invalid-number: '&cNúmero inválido.'
+    created: '&aTrem criado! W/S anda, a tela vira/sobe/desce, SHIFT sai.'
+    joined: '&aVocê entrou no trem. SHIFT para sair.'
+    already-in: '&cVocê já está em um trem.'
+    full: '&cEsse trem está cheio.'
+    max-wagons: 12
+
+  plugins:
+    message: '&fPlugin (1): &abedwars-lobby'

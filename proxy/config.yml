@@ -1,0 +1,89 @@
+network_compression_threshold: 256
+remote_ping_timeout: 5000
+remote_ping_cache: -1
+online_mode: false
+forge_support: true
+max_packets_per_second: 4096
+stats: 978aafc5-0a0a-4093-b03f-e1b021cac204
+disabled_commands: []
+max_packets_data_per_second: 3.3554432E7
+reject_transfers: false
+player_limit: -1
+prevent_proxy_connections: false
+connection_throttle_limit: 3
+log_commands: true
+connection_throttle: 4000
+log_pings: false
+servers:
+  auth:
+    address: 172.18.0.1:25566
+    motd: '&6Dunk &8» &fLogin'
+    restricted: false
+  bedwars-1:
+    address: 172.18.0.1:25569
+    motd: '&6Dunk &8» &fBedWars'
+    restricted: false
+  duels:
+    address: 172.18.0.1:25574
+    motd: '&6Dunk &8» &fDuels'
+    restricted: false
+  evento:
+    address: 172.18.0.1:25572
+    motd: '&6Dunk &8» &fEvento'
+    restricted: false
+  hub:
+    address: 172.18.0.1:25567
+    motd: '&6Dunk &8» &fLobby'
+    restricted: false
+  hub-bedwars:
+    address: 172.18.0.1:25568
+    motd: '&6Dunk &8» &fHub BedWars'
+    restricted: false
+  hub-duels:
+    address: 172.18.0.1:25573
+    motd: '&6Dunk &8» &fHub Duels'
+    restricted: false
+  hub-pvp:
+    address: 172.18.0.1:25571
+    motd: '&6Dunk &8» &fHub PvP'
+    restricted: false
+  skywars:
+    address: 172.18.0.1:25570
+    motd: '&6Dunk &8» &fSkyWars'
+    restricted: false
+  thebridge:
+    address: 172.18.0.1:3005
+    motd: '&6Dunk &8» &fTreino de Ponte'
+    restricted: false
+groups: {}
+permissions:
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+  - bungeecord.command.list
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+listeners:
+- bind_local_address: true
+  force_default_server: false
+  forced_hosts: {}
+  host: 0.0.0.0:25565
+  max_players: 500
+  motd: '&6&lDUNK &8» &fVenha jogar!'
+  ping_passthrough: false
+  priorities:
+  - hub
+  - auth
+  proxy_protocol: false
+  query_enabled: false
+  query_port: 25565
+  tab_list: GLOBAL_PING
+  tab_size: 100
+ip_forward: true
+enforce_secure_profile: false
+server_connect_timeout: 5000
+timeout: 30000

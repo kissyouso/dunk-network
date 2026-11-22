@@ -1,0 +1,47 @@
+messages:
+  prefix: '&b[wVolley] '
+
+teams:
+  max-players: 2
+
+game:
+  points-to-win: 15
+  countdown-min: 30
+  countdown-full: 10
+
+arena:
+  min-y: 0
+
+ball:
+  physics-version: 36
+  name: '&fBola de Volei'
+  texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzNmJjNzIxNDNlNjcyOTAxZjY5ZTJhNmI1ZWMzOTMyOGU1MWYxMGIzY2MyNTJjMTJmM2Y4ZjUzZTQ3NmZhYiJ9fX0='
+  armorstand-visible: false
+  orange-wool-data: 1
+  attack-forward: 0.42
+  attack-up: 0.34
+  attack-player-forward: 0.025
+  attack-player-up: 0.0
+  lift-forward: 0.36
+  lift-up: 0.54
+  serve-forward: 0.36
+  serve-up: 0.56
+  serve-height: 1.85
+  gravity: 0.030
+  air-drag: 0.992
+  max-speed: 0.62
+  max-up: 0.58
+  min-side-hit-distance: 0.55
+  under-ball-y-diff: 0.65
+  spin-yaw-per-tick: 4
+  wall-margin: 0.35
+  wall-bounce: 0.82
+  wall-up: 0.30
+
+border:
+  push-force: 0.30
+  push-up: 0.02
+  safe-margin: 0.45
+
+queue:
+  leave-item-name: '&cSair da fila'

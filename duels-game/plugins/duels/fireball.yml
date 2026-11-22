@@ -1,0 +1,16 @@
+# Knockback do Fireball Fight (Duels). Padroes iguais aos do BedWars.
+# Altere e reinicie o servidor.
+# 
+# knockback.horizontal        blocos/tick no eixo horizontal da FIREBALL (padrao 3.2)
+# knockback.vertical          blocos/tick para cima da FIREBALL (padrao 1.08)
+# knockback.tnt-horizontal   blocos/tick no eixo horizontal do TNT (padrao 2.5)
+# knockback.tnt-vertical     blocos/tick para cima do TNT (padrao 1.1)
+# knockback.damage           dano por explosao (padrao 0.1)
+# knockback.max-distance     raio em blocos que ainda empurra (padrao 5.0)
+knockback:
+  horizontal: 10.0
+  vertical: 10.08
+  tnt-horizontal: 2.5
+  tnt-vertical: 1.1
+  damage: 10.0
+  max-distance: 10.0

@@ -1,0 +1,91 @@
+# NPCs do lobby do BedWars.
+# Comandos:
+# /bw npcs
+# /bw npc add <id> <solo/duplas/trios/quartetos/duels>
+# /bw npc remove <id>
+
+npcs: {}
+
+# NPC aparece como personagem/player, não como villager.
+# O villager usado como hitbox fica invisível.
+skin:
+  # Skin padrão aplicada em todos os NPCs. Pode trocar por outro value/signature depois.
+  value: 'ewogICJ0aW1lc3RhbXAiIDogMTYyODE5ODUzMzM4MiwKICAicHJvZmlsZUlkIiA6ICI5MThhMDI5NTU5ZGQ0Y2U2YjE2ZjdhNWQ1M2VmYjQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWV2ZWxvcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg5NjJhMGNiZjdiMWI5NDQ4MjU5YjEzYTBkMmM3Y2E1OTZiMmU2NTdlZWQwZjc1MGYxY2ViZTQ4MWNjN2I5MTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=='
+  signature: 'MdAteUKFZFa9YcAZTpztqK4x/uHPmRFcdQdGX5E3XQW57SQy4P2wxReZOgy6O3/lDYcVOdUZOvE7yw1v/WI7JW1alTgxH5LjoBwXDsGHZTUFMdEfXrrv1eRmJQ6p44IEnRnvKtIXUp4qoDtCHY7yv1BrDXRJ07MFI+qPeU1mT8rVT7w8so5FThfcQEPPd8KrvhIBA+HISmxc7Lfm8qwO4V2MGWu95zFRdAiH1R90fzBphecVHxtmsdpsuxT4r+/KlP/lTCDQxuVHXWEErZUT71rbX18mlIwPTdV4oUiQeBKEns5XzMEABjQl9Y10R9GGwNuXM0TEyyc9G66lqJKcmH8yhjhX6fCeIatUWlI3FivIEA2hJ2F3tNLV/jlzL4SXtlXCDHNpsggHCZDSMJ1PkfMax3b8JMBfCHHZ/LOTIBujyMCrHjjndponVjvTkwXL8YAdupj02CUYRIBDUrkvkmH9rJ7Zqa+7WdX8FnwHfELaB3l+l5An6tn2fG8WooTHC9ZqEf62b6HUfRSBH9VsAgD1DIHGGHqJWM4ID8R54asRZmCSOLccgYDOuv7IhDPMEfE9ArKhIlmCRKmStOyKqYckNKVGWGJpoOrfABZ8/9sWNalOX2abybuw+Bh0Qcbk9+/cSIpO0vw2VHXV1wF5q0f1rScR5hQg8W4+KDwVUw0='
+  equipment:
+    hand: 'AIR'
+    boots: 'AIR'
+    leggings: 'AIR'
+    chestplate: 'AIR'
+
+
+modes:
+  solo:
+    display: 'Solo'
+    online: 0
+    hologram:
+    - '&b&lSOLO'
+    - '&e%jogadores_jogandosolo% jogando!'
+    menu:
+      title: '&8Bed Wars Solo'
+  duplas:
+    display: 'Duplas'
+    online: 0
+    hologram:
+    - '&b&lDUPLAS'
+    - '&e%jogadores_jogandoduplas% jogando!'
+    menu:
+      title: '&8Bed Wars Duplas'
+  trios:
+    display: 'Trios'
+    online: 0
+    hologram:
+    - '&b&lTRIOS'
+    - '&e%jogadores_jogandotrios% jogando!'
+    menu:
+      title: '&8Bed Wars Trios'
+  quartetos:
+    display: 'Quartetos'
+    online: 0
+    hologram:
+    - '&b&lQUARTETOS'
+    - '&e%jogadores_jogandoquartetos% jogando!'
+    menu:
+      title: '&8Bed Wars Quartetos'
+  duels:
+    display: 'Duels'
+    online: 0
+    hologram:
+    - '&b&lDUELS'
+    - '&e%jogadores_jogandoduels% jogando!'
+    menu:
+      title: '&8Bed Wars Duels'
+
+menu:
+  size: 27
+  # Sem glass filter. Só esses 2 itens, igual o modelo que você mandou.
+
+  select-map:
+    permission: 'wbedwars.vip.selectmap'
+    no-permission: '&cEsse menu é exclusivo para VIPs.'
+    name: '&aSelecionar mapa'
+    lore:
+    - '&7Escolha o mapa que você'
+    - '&7quer jogar.'
+    - ''
+    - '&7Exclusivo para &aVIPs'
+    - ''
+    - '&eClique para navegar.'
+  items:
+    jogar:
+      slot: 11
+      icon: 'FIREWORK : 1 : nome>&aJogar Bed Wars {mode_display} : desc>&7Clique para procurar uma sala.'
+      execute: ''
+    voltar:
+      slot: 26
+      icon: 'ARROW : 1 : nome>&cVoltar : desc>&7Clique para fechar o menu.'
+      execute: 'close'
+    info:
+      slot: 15
+      icon: 'PAPER : 1 : nome>&aSelecionar mapa : desc>&7Escolha o mapa que você\n&7quer jogar.\n\n&7Exclusivo para &aVIPs\n\n&eClique para navegar.'
+      execute: ''

@@ -1,0 +1,403 @@
+{
+  "name": "bw-marioworld",
+  "displayName": "Mario World",
+  "normal": true,
+  "island_area": {
+    "frontAndBack": 17,
+    "up": 0,
+    "sides": 10,
+    "upgradeRadius": 3,
+    "shopRadius": 3,
+    "diamondRadius": 3,
+    "emeraldRadius": 3
+  },
+  "build_limit": 25,
+  "locations": [
+    {
+      "name": "map-limit-pos2",
+      "x": -99.5,
+      "y": 10.5,
+      "z": -103.5,
+      "yaw": -45.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "blue-generator",
+      "x": -80.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "red-generator",
+      "x": -80.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "blue-shop",
+      "x": -74.5,
+      "y": 50.5,
+      "z": -32.5
+    },
+    {
+      "name": "blue-spawn",
+      "x": -74.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "blue-upgrade",
+      "x": -74.5,
+      "y": 50.5,
+      "z": -18.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "gray-shop",
+      "x": -32.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "red-spawn",
+      "x": -74.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "red-upgrade",
+      "x": -74.5,
+      "y": 50.5,
+      "z": 32.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "diamond-3",
+      "x": -59.5,
+      "y": 50.5,
+      "z": -59.5
+    },
+    {
+      "name": "blue-bed",
+      "x": -60.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "red-bed",
+      "x": -60.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "diamond-2",
+      "x": -59.5,
+      "y": 50.5,
+      "z": 59.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "yel-upgrade",
+      "x": -32.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "yel-generator",
+      "x": -25.5,
+      "y": 50.5,
+      "z": -80.5
+    },
+    {
+      "name": "yel-spawn",
+      "x": -25.5,
+      "y": 50.5,
+      "z": -74.5
+    },
+    {
+      "name": "yel-shop",
+      "x": -18.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "yel-bed",
+      "x": -25.5,
+      "y": 50.5,
+      "z": -60.5
+    },
+    {
+      "name": "gray-bed",
+      "x": -25.5,
+      "y": 50.5,
+      "z": 59.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "gray-spawn",
+      "x": -25.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "gray-upgrade",
+      "x": -18.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "gray-generator",
+      "x": -25.5,
+      "y": 50.5,
+      "z": 80.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "emerald-1",
+      "x": -11.5,
+      "y": 55.5,
+      "z": -8.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "emerald-2",
+      "x": -11.5,
+      "y": 55.5,
+      "z": 9.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "emerald-4",
+      "x": 12.5,
+      "y": 55.5,
+      "z": -8.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "spawn",
+      "x": 0.5,
+      "y": 94.5,
+      "z": 0.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "emerald-3",
+      "x": 12.5,
+      "y": 55.5,
+      "z": 9.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "oran-generator",
+      "x": 25.5,
+      "y": 50.5,
+      "z": -80.5
+    },
+    {
+      "name": "oran-upgrade",
+      "x": 18.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "oran-spawn",
+      "x": 25.5,
+      "y": 50.5,
+      "z": -74.5
+    },
+    {
+      "name": "oran-bed",
+      "x": 25.5,
+      "y": 50.5,
+      "z": -60.5
+    },
+    {
+      "name": "whit-bed",
+      "x": 25.5,
+      "y": 50.5,
+      "z": 59.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "whit-shop",
+      "x": 18.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "whit-spawn",
+      "x": 25.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "whit-generator",
+      "x": 25.5,
+      "y": 50.5,
+      "z": 80.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "oran-shop",
+      "x": 32.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "whit-upgrade",
+      "x": 32.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "diamond-4",
+      "x": 59.5,
+      "y": 50.5,
+      "z": -59.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "purp-bed",
+      "x": 59.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "cyan-bed",
+      "x": 59.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "diamond-1",
+      "x": 59.5,
+      "y": 50.5,
+      "z": 59.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "purp-upgrade",
+      "x": 74.5,
+      "y": 50.5,
+      "z": -32.5
+    },
+    {
+      "name": "purp-spawn",
+      "x": 74.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "purp-shop",
+      "x": 74.5,
+      "y": 50.5,
+      "z": -18.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "cyan-upgrade",
+      "x": 74.5,
+      "y": 50.5,
+      "z": 18.5
+    },
+    {
+      "name": "cyan-spawn",
+      "x": 74.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "cyan-shop",
+      "x": 74.5,
+      "y": 50.5,
+      "z": 32.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "purp-generator",
+      "x": 80.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "cyan-generator",
+      "x": 80.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "map-limit-pos1",
+      "x": 101.5,
+      "y": 88.5,
+      "z": 103.5,
+      "yaw": 135.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "red-shop",
+      "x": -74.5,
+      "y": 50.5,
+      "z": 18.5
+    }
+  ]
+}

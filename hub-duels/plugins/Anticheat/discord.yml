@@ -1,0 +1,23 @@
+# For help with webhooks: https://support.discord.com/hc/en-us/articles/228383668
+
+enabled: false
+webhook: "CHANGE_ME"
+# Set to true to bypass Discord's webhook URL format validation.
+# This allows any valid HTTPS URL (useful for proxies or Matrix forwarders).
+disable-webhook-validation: false
+embed-title: "**Anticheat Alerta**"
+embed-color: "#00FFFF"
+include-timestamp: true
+# Replaces backticks in values (like client brands) so they don't break Discord's text formatting.
+# Set to "`" to disable this replacement.
+backtick-replacement-char: "ˋ" # Defaults to U+02CB
+violation-content:
+    - "**Jogador**: `%player%`"
+    - "**Verificação**: %check%"
+    - "**Violações**: %violations%"
+    - "**Versão do Cliente**: %version%"
+    - "**Marca do Cliente**: `%brand%`"
+    - "**Ping**: %ping%"
+    - "**TPS**: %tps%"
+config-flavor: V2
+config-version: 1

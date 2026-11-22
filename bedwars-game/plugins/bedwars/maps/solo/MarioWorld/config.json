@@ -1,0 +1,475 @@
+{
+  "name": "bw-marioworld",
+  "displayName": "Mario World",
+  "normal": true,
+  "island_area": {
+    "frontAndBack": 17,
+    "up": 0,
+    "sides": 10,
+    "upgradeRadius": 3,
+    "shopRadius": 3,
+    "diamondRadius": 3,
+    "emeraldRadius": 3
+  },
+  "build_limit": 25,
+  "locations": [
+    {
+      "name": "map_limit_pos2",
+      "x": -99.5,
+      "y": 10.5,
+      "z": -103.5,
+      "yaw": -45.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_blue",
+      "x": -80.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_red",
+      "x": -80.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_shop_blue",
+      "x": -74.5,
+      "y": 50.5,
+      "z": -32.5
+    },
+    {
+      "name": "blue_spawn",
+      "x": -74.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_upgrade_blue",
+      "x": -74.5,
+      "y": 50.5,
+      "z": -18.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_shop_gray",
+      "x": -32.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "red_spawn",
+      "x": -74.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_upgrade_red",
+      "x": -74.5,
+      "y": 50.5,
+      "z": 32.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "ore_generator_diamond_3",
+      "x": -59.5,
+      "y": 50.5,
+      "z": -59.5
+    },
+    {
+      "name": "blue_bed",
+      "x": -60.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "red_bed",
+      "x": -60.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "ore_generator_diamond_2",
+      "x": -59.5,
+      "y": 50.5,
+      "z": 59.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_upgrade_yel",
+      "x": -32.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_yel",
+      "x": -25.5,
+      "y": 50.5,
+      "z": -80.5
+    },
+    {
+      "name": "yel_spawn",
+      "x": -25.5,
+      "y": 50.5,
+      "z": -74.5
+    },
+    {
+      "name": "npc_shop_yel",
+      "x": -18.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "yel_bed",
+      "x": -25.5,
+      "y": 50.5,
+      "z": -60.5
+    },
+    {
+      "name": "gray_bed",
+      "x": -25.5,
+      "y": 50.5,
+      "z": 59.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "gray_spawn",
+      "x": -25.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_upgrade_gray",
+      "x": -18.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_gray",
+      "x": -25.5,
+      "y": 50.5,
+      "z": 80.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "ore_generator_emerald_1",
+      "x": -11.5,
+      "y": 55.5,
+      "z": -8.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "ore_generator_emerald_2",
+      "x": -11.5,
+      "y": 55.5,
+      "z": 9.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "ore_generator_emerald_4",
+      "x": 12.5,
+      "y": 55.5,
+      "z": -8.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "spawn",
+      "x": 0.5,
+      "y": 94.5,
+      "z": 0.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "ore_generator_emerald_3",
+      "x": 12.5,
+      "y": 55.5,
+      "z": 9.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_green",
+      "x": 25.5,
+      "y": 50.5,
+      "z": -80.5
+    },
+    {
+      "name": "npc_upgrade_green",
+      "x": 18.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "green_spawn",
+      "x": 25.5,
+      "y": 50.5,
+      "z": -74.5
+    },
+    {
+      "name": "green_bed",
+      "x": 25.5,
+      "y": 50.5,
+      "z": -60.5
+    },
+    {
+      "name": "whit_bed",
+      "x": 25.5,
+      "y": 50.5,
+      "z": 59.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_shop_whit",
+      "x": 18.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "whit_spawn",
+      "x": 25.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_whit",
+      "x": 25.5,
+      "y": 50.5,
+      "z": 80.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_shop_green",
+      "x": 32.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_upgrade_whit",
+      "x": 32.5,
+      "y": 50.5,
+      "z": 74.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "ore_generator_diamond_4",
+      "x": 59.5,
+      "y": 50.5,
+      "z": -59.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "pink_bed",
+      "x": 59.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "cyan_bed",
+      "x": 59.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "ore_generator_diamond_1",
+      "x": 59.5,
+      "y": 50.5,
+      "z": 59.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_upgrade_pink",
+      "x": 74.5,
+      "y": 50.5,
+      "z": -32.5
+    },
+    {
+      "name": "pink_spawn",
+      "x": 74.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_shop_pink",
+      "x": 74.5,
+      "y": 50.5,
+      "z": -18.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_upgrade_cyan",
+      "x": 74.5,
+      "y": 50.5,
+      "z": 18.5
+    },
+    {
+      "name": "cyan_spawn",
+      "x": 74.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_shop_cyan",
+      "x": 74.5,
+      "y": 50.5,
+      "z": 32.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_pink",
+      "x": 80.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_cyan",
+      "x": 80.5,
+      "y": 50.5,
+      "z": 25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "map_limit_pos1",
+      "x": 101.5,
+      "y": 88.5,
+      "z": 103.5,
+      "yaw": 135.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_shop_red",
+      "x": -74.5,
+      "y": 50.5,
+      "z": 18.5
+    },
+    {
+      "name": "generator_oran",
+      "x": 25.5,
+      "y": 50.5,
+      "z": -80.5
+    },
+    {
+      "name": "npc_upgrade_oran",
+      "x": 18.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": -90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "oran_spawn",
+      "x": 25.5,
+      "y": 50.5,
+      "z": -74.5
+    },
+    {
+      "name": "oran_bed",
+      "x": 25.5,
+      "y": 50.5,
+      "z": -60.5
+    },
+    {
+      "name": "npc_shop_oran",
+      "x": 32.5,
+      "y": 50.5,
+      "z": -74.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "purp_bed",
+      "x": 59.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_upgrade_purp",
+      "x": 74.5,
+      "y": 50.5,
+      "z": -32.5
+    },
+    {
+      "name": "purp_spawn",
+      "x": 74.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "npc_shop_purp",
+      "x": 74.5,
+      "y": 50.5,
+      "z": -18.5,
+      "yaw": 180.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_purp",
+      "x": 80.5,
+      "y": 50.5,
+      "z": -25.5,
+      "yaw": 90.0,
+      "pitch": 0.0
+    }
+  ]
+}

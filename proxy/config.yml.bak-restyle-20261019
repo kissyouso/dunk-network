@@ -1,0 +1,92 @@
+network_compression_threshold: 256
+remote_ping_timeout: 5000
+remote_ping_cache: -1
+online_mode: false
+forge_support: true
+max_packets_per_second: 4096
+stats: e6c467ee-5870-42e9-9ec3-b857880bcf0b
+disabled_commands:
+- disabledcommandhere
+max_packets_data_per_second: 3.3554432E7
+reject_transfers: false
+player_limit: -1
+prevent_proxy_connections: false
+connection_throttle_limit: 3
+log_commands: true
+connection_throttle: 4000
+log_pings: true
+servers:
+  auth:
+    address: 127.0.0.1:25566
+    motd: '&eLogin'
+    restricted: false
+  bedwars-1:
+    address: 127.0.0.1:25571
+    motd: '&ebw-1'
+    restricted: false
+  bedwars-2:
+    address: 127.0.0.1:25573
+    motd: '&ebw-2'
+    restricted: false
+  duels:
+    address: 127.0.0.1:25574
+    motd: '&ehub-prototype'
+    restricted: false
+  eggwars-1:
+    address: 127.0.0.1:25574
+    motd: '&eew-1'
+    restricted: false
+  hub:
+    address: 127.0.0.1:25590
+    motd: '&ehub-principal'
+    restricted: false
+  hub-bedwars:
+    address: 127.0.0.1:25567
+    motd: '&ehub-bedwars'
+    restricted: false
+  hub-duels:
+    address: 127.0.0.1:25573
+    motd: '&ehub-prototype'
+    restricted: false
+  hub-pvp:
+    address: 127.0.0.1:25575
+    motd: '&ehub-eggwars'
+    restricted: false
+  pvp:
+    address: 127.0.0.1:25576
+    motd: '&ehub-prototype'
+    restricted: false
+groups:
+  md_5:
+  - admin
+permissions:
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+listeners:
+- bind_local_address: true
+  force_default_server: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  host: 0.0.0.0:25565
+  max_players: 500
+  motd: '&eVenha jogar na &1&lBETA'
+  ping_passthrough: false
+  priorities:
+  - hub
+  - auth
+  proxy_protocol: false
+  query_enabled: false
+  query_port: 25565
+  tab_list: GLOBAL_PING
+  tab_size: 100
+ip_forward: true
+enforce_secure_profile: false
+server_connect_timeout: 5000
+timeout: 30000

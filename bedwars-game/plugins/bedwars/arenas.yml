@@ -1,0 +1,3 @@
+# Arquivo das salas/arenas do BedWars.
+# As salas são criadas por /bw setup criar <solo/duplas/trios/quarteto>
+arenas: {}

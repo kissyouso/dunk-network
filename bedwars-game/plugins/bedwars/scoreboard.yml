@@ -1,0 +1,106 @@
+#  - ' Vitorias: &a%wBedWars_wins%'
+#  - ' Abates Finais: &a%wBedWars_finalkills%'
+#  - ' Abates Gerais: &a%wBedWars_kills%'
+#  - ' Camas Destr.: &a%wBedWars_bedsdestroyeds%'
+#  - ' Partidas: &a%wBedWars_games%'
+#  - 'Coins: &6%wBedWars_coins%'
+#  - 'Cash: &b%wcash%'
+#
+scoreboards:
+  fixed-title: true
+  title: '&e&lSPARTA'
+  scroller:
+    every-tick: 4
+    titles:
+    - '&b&lBEDWARS'
+    - '&f&lB&b&lEDWARS'
+    - '&f&lBE&b&lDWARS'
+    - '&f&lBED&b&lWARS'
+    - '&f&lBEDW&b&lARS'
+    - '&f&lBEDWA&b&lRS'
+    - '&f&lBEDWAR&b&lS'
+    - '&f&lBEDWARS'
+    - '&b&lBEDWARS'
+
+  lobby:
+  - ''
+  - 'Coins: {coins}'
+  - ''
+  - ' •  &fVitórias: &e%wBedWars_wins%'
+  - ' •  Kills: &e%killsgerais%'
+  - ''
+  - 'Nível: {level}'
+  - '{progress}'
+  - ''
+  - 'Rank: {rank}'
+  - '{rank_progress}'
+  - ''
+  - 'Jogadores: &e{online}'
+  - ''
+  - '&6&ospartamc.com.br'
+
+  waiting:
+  - '&7   {date}'
+  - ''
+  - 'Mapa: &b{map}'
+  - 'Jogadores: &b{players}/{max_players}'
+  - ''
+  - ' {time}'
+  - ''
+  - '&ewww.seuservidor.com'
+
+  time:
+    waiting: 'Esperando...'
+    starting: 'Iniciando em &b{time}s'
+
+  game:
+    trios:
+    - '&7   {date}'
+    - ''
+    - 'Próximo Evento:'
+    - '&b{next_event}'
+    - ''
+    - '{red}'
+    - '{pink}'
+    - '{aqua}'
+    - '{blue}'
+    - ''
+    - '&ewww.seuservidor.com'
+
+    quartetos:
+    - '&7   {date}'
+    - ''
+    - 'Próximo Evento:'
+    - '&b{next_event}'
+    - ''
+    - '{red}'
+    - '{blue}'
+    - '{green}'
+    - '{yellow}'
+    - ''
+    - '&ewww.seuservidor.com'
+
+    ingame:
+    - '&7   {date}'
+    - ''
+    - 'Próximo Evento:'
+    - '&b{next_event}'
+    - ''
+    - '{red}'
+    - '{blue}'
+    - '{green}'
+    - '{yellow}'
+    - '{white}'
+    - '{ciano}'
+    - '{rosa}'
+    - '{cinza}'
+    - ''
+    - '&ewww.seuservidor.com'
+
+  Level:
+    progress: '&bNível máx.'
+    nextxp: '&c0'
+    currentxp: '&c0'
+    progressicon: '▮'
+    progresscomplete: '&b'
+    progressincompleta: '&7'

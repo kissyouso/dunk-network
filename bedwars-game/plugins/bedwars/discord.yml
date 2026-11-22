@@ -1,0 +1,17 @@
+discord:
+  enabled: false
+  debug: false
+  security:
+    block-mentions: true
+  staff-chat:
+    enabled: true
+    webhook: "CHANGE_ME"
+    username: "CHANGE_ME"
+    avatar-url: 'https://mc-heads.net/avatar/%player%/128'
+    content: '%message%'
+  admin-chat:
+    enabled: true
+    webhook: "CHANGE_ME"
+    username: "CHANGE_ME"
+    avatar-url: 'https://mc-heads.net/avatar/%player%/128'
+    content: '%message%'

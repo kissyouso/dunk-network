@@ -1,0 +1,106 @@
+settings:
+  max-level: 100
+xpbar:
+  progress: '&bNível máx.'
+  nextxp: '&c0'
+  currentxp: '&c0'
+  progressicon: '▮'
+  progresscomplete: '&b'
+  progressincompleta: '&7'
+xp:
+  kill: 10
+  final-kill: 50
+  bed: 100
+  win: 300
+  playtime-10-minutes: 0
+levels:
+  0-10:
+    tag: '&7[{name}{symbol}]'
+    name: '0-10'
+    symbol: '✫'
+    exp: 300
+  11-20:
+    tag: '&a[{name}{symbol}]'
+    name: '11-20'
+    symbol: '✶'
+    exp: 900
+  21-30:
+    tag: '&b[{name}{symbol}]'
+    name: '21-30'
+    symbol: '❃'
+    exp: 1800
+  31-40:
+    tag: '&d[{name}{symbol}]'
+    name: '31-40'
+    symbol: '✸'
+    exp: 4500
+  41-50:
+    tag: '&e[{name}{symbol}]'
+    name: '41-50'
+    symbol: '❄'
+    exp: 10000
+  51-60:
+    tag: '&6[{name}{symbol}]'
+    name: '51-60'
+    symbol: '✺'
+    exp: 14000
+  61-70:
+    tag: '&5[{name}{symbol}]'
+    name: '61-70'
+    symbol: '✩'
+    exp: 19000
+  71-80:
+    tag: '&9[{name}{symbol}]'
+    name: '71-80'
+    symbol: '❣'
+    exp: 25000
+  81-90:
+    tag: '&b[{name}{symbol}]'
+    name: '81-90'
+    symbol: 'ϟ'
+    exp: 32000
+  91-100:
+    tag: '&c[{symbol}&4{name}&c]'
+    name: '91-100'
+    symbol: '⌬'
+    exp: 40000
+
+
+ranked:
+  enabled: true
+  # XP ranked = XP de level ganho na partida * multiplicador. 0.5 = metade.
+  xp-multiplier-from-level: 0.5
+  # XP separado do level normal. O level normal continua usando a seção xp acima.
+  xp-message: '&6+{xp} XP &8(Ranked)'
+  level-up-message: '&6&lRANKED! &fVocê subiu para {rank}&f!'
+  xp:
+    kill: 5
+    final-kill: 25
+    bed: 50
+    win: 200
+  ranks:
+    bronze:
+      display: '&8Bronze'
+      min-xp: 0
+    silver:
+      display: '&7Prata'
+      min-xp: 12000
+    gold:
+      display: '&6Ouro'
+      min-xp: 20000
+    platinum:
+      display: '&fPlatina'
+      min-xp: 35000
+    diamond:
+      display: '&bDiamante'
+      min-xp: 50000
+    guardian:
+      display: '&3Guardian'
+      min-xp: 100000
+
+
+coins:
+  kill: 5
+  final-kill: 25
+  bed: 50
+  win: 200

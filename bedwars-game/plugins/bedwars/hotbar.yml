@@ -1,0 +1,31 @@
+lobby:
+  bussola:
+    slot: 1
+    execute: 'MENU>jogos'
+    icon: 'COMPASS : 1 : nome>&bMinigames : desc>&7Sabemos que é uma difícil escolha...'
+  perfil:
+    slot: 2
+    execute: 'MENU>profile'
+    icon: '%perfil%SKULL_ITEM:3 : 1 : nome>&bMeu Perfil : desc>&7Clique para ver suas\n&7informações pessoais!'
+  cosmeticos:
+    slot: 5
+    execute: 'MENU>cosmeticos'
+    icon: 'STORAGE_MINECART : 1 : nome>&eColecionáveis : desc>&7Clique para abrir seus colecionáveis!'
+  jogadores:
+    slot: 8
+    execute: 'VISIBILITY>toggle'
+    # Permissões/cargos que aparecem no modo magenta. Pode colocar quantos quiser.
+    visible-cargos:
+    - 'role.dono'
+    - 'role.admin'
+    - 'role.mod'
+    - 'wbedwars.visibility.admin'
+    icon: 'INK_SACK:10 : 1 : nome>&fJogadores: &a&lAtivado : desc>&7Clique para alternar a visibilidade!'
+    visibility-icons:
+      all: 'INK_SACK:10 : 1 : nome>&fJogadores: &a&lAtivado : desc>&7Você está vendo todos os jogadores.\n\n&eClique para trocar!'
+      staff: 'INK_SACK:5 : 1 : nome>&fJogadores: &d&lApenas VIPs : desc>&7Você está vendo apenas jogadores\n&7com cargo configurado.\n\n&eClique para trocar!'
+      none: 'INK_SACK:8 : 1 : nome>&fJogadores: &c&lDesativado : desc>&7Você não está vendo ninguém,\n&7somente admins e você mesmo.\n\n&eClique para trocar!'
+  lobbies:
+    slot: 9
+    execute: 'MENU>lobbies'
+    icon: 'WATCH : 1 : nome>&bLobbies : desc>&7Clique para selecionar um lobby!'

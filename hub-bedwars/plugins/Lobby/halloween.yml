@@ -1,0 +1,53 @@
+enabled: true
+required: 10
+candies:
+  '1':
+    world: lobbybw
+    x: 221
+    y: 57
+    z: 1353
+  '2':
+    world: lobbybw
+    x: 249
+    y: 71
+    z: 1325
+  '3':
+    world: lobbybw
+    x: 140
+    y: 78
+    z: 1327
+  '4':
+    world: lobbybw
+    x: 253
+    y: 61
+    z: 1363
+  '5':
+    world: lobbybw
+    x: 261
+    y: 58
+    z: 1348
+  '6':
+    world: lobbybw
+    x: 264
+    y: 62
+    z: 1353
+  '7':
+    world: lobbybw
+    x: 265
+    y: 59
+    z: 1351
+  '8':
+    world: lobbybw
+    x: 233
+    y: 61
+    z: 1363
+  '9':
+    world: lobbybw
+    x: 250
+    y: 72
+    z: 1361
+  '10':
+    world: lobbybw
+    x: 248
+    y: 82
+    z: 1358

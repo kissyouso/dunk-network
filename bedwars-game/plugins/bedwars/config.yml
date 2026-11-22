@@ -1,0 +1,56 @@
+modes:
+  Solo:
+    directory: solo
+    min: 8
+    max: 8
+  Duo:
+    directory: duo
+    min: 8
+    max: 8
+  Trio:
+    directory: trio
+    min: 8
+    max: 8
+  Quartet:
+    directory: quartet
+    min: 8
+    max: 8
+  SoloVersus:
+    directory: soloversus
+    min: 8
+    max: 8
+  DuoVersus:
+    directory: duoversus
+    min: 8
+    max: 8
+  TrioVersus:
+    directory: trioversus
+    min: 8
+    max: 8
+  QuartetVersus:
+    directory: quartetversus
+    min: 8
+    max: 8
+  # BedWars Ranked. Cada formato tem pasta e template proprios, copiados do
+  # Versus correspondente (mesmo mapa, mesma base, mesmo gerador), para o
+  # Ranked poder ser ajustado sem mexer no Casual. O nome da secao tem que ser
+  # igual ao nome da classe em arcade/list/ranked, e o "directory" igual ao
+  # nome da classe em minusculo (e assim que o loadMaps acha a pasta de mapas).
+  RankedSolo:
+    directory: rankedsolo
+    min: 8
+    max: 8
+  RankedDuo:
+    directory: rankedduo
+    min: 8
+    max: 8
+  RankedTrio:
+    directory: rankedtrio
+    min: 8
+    max: 8
+  RankedQuartet:
+    directory: rankedquartet
+    min: 8
+    max: 8
+bots:
+  enabled: false

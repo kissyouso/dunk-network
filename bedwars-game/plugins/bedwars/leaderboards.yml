@@ -1,0 +1,11 @@
+settings:
+  empty-user: '&7...'
+  server: '&3www.seuservidor.com'
+  click: '&b&lClique para trocar!'
+  clan-placeholder: '%wclans_clan%'
+  empty-clan: ''
+format:
+  header: '&b&lTOP 100 &7({page}/10)'
+  title: '&e&l{type}'
+  entry: '&e{pos} &7- {nick} {clan} &7- {value}'
+leaderboards: {}

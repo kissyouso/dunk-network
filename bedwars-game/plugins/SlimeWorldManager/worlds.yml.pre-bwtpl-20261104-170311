@@ -1,0 +1,254 @@
+worlds:
+    duo-mycogrove:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    duoversus-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    quartet-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    quartetversus-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    rankedduo-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    rankedquartet-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    rankedsolo-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    rankedtrio-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-caribbean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-condomínio:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-desert:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-dojo:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-farm:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-fazenda:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-magical:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-mycogrove:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-pitstop:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-praia:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    solo-zoológico:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    soloversus-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    trio-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true
+    trioversus-ocean:
+        source: file
+        spawn: 0, 255, 0
+        difficulty: peaceful
+        allowMonsters: false
+        allowAnimals: false
+        pvp: true
+        environment: NORMAL
+        worldType: DEFAULT
+        loadOnStartup: false
+        readOnly: true

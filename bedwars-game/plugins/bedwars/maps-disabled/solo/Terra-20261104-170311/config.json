@@ -1,0 +1,16 @@
+{
+  "name": "Terra",
+  "normal": true,
+  "build_limit": 80,
+  "locations": [],
+  "area_protection": {
+    "frontAndBack": 9,
+    "up": 7,
+    "side": 6
+  },
+  "island_area": {
+    "frontAndBack": 17,
+    "up": 0,
+    "sides": 10
+  }
+}

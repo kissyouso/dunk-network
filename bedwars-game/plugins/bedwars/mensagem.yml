@@ -1,0 +1,58 @@
+InGame:
+  Reconectou: 'mensagem: {player} §7reconectou!'
+  join: 'mensagem: {player} &7entrou na partida! &a({players}/{max_players})'
+  leave: 'mensagem: {player} &7saiu da partida! &a({players}/{max_players})'
+  starting: 'mensagem: &7O jogo começa em &f{time} &7segundo{s}.'
+  suicide: 'mensagem: {name} &7morreu sozinho.'
+  void: 'mensagem: {name} &7caiu no vazio.'
+  killed: 'mensagem: {name} &7morreu para {killer}'
+  killedfinal: 'mensagem: {name} &7morreu para {killer}&f&l. ABATE FINAL'
+  death: 'titleinsta: &c&lVOCE MORREU:&7Você agora é um espectador:0:60:0'
+  win: 'titleinsta: &b&lVITÓRIA:&7Seu time venceu!:20:60:20'
+  beddestroy_self: 'titleinsta: &c&lCAMA DESTRUIDA:&7Você não renascerá mais.:10:80:10'
+  loser: 'titleinsta: &c&lFIM DE JOGO:&7Você não foi vitorioso dessa vez:10:80:10'
+  bow_hit: 'mensagem: {name} &7está com &c{hp} &7de HP.'
+  Upgrade_DiamondGen: 'mensagem: &7Os geradores de &b&lDiamante &7foram aprimorados para o nível &b&l{tier}&7!'
+  Upgrade_EmeraldGen: 'mensagem: &7Os geradores de &2&lEsmeralda &7foram aprimorados para o nível &b&l{tier}&7!'
+  DestruirCama: 'mensagem: &cVocê não pode destruir sua própria cama.'
+  QuebrarPlayer: 'mensagem: &cVocê só pode quebrar blocos colocados por jogadores.'
+  QuebrarIlha: 'mensagem: &cVocê não pode quebrar blocos aqui.'
+  ColocarIlha: 'mensagem: &cVocê não pode colocar blocos aqui.'
+  coins_kills:
+  - 'mensagem: '
+  - 'mensagem:       &b+{coins} &fpor realizar &c{kills} &fabate{s}'
+  coins_beds:
+  - 'mensagem: '
+  - 'mensagem:       &b+{coins} &fpor destruir &c{beds} &fcama{s}'
+  coins_win:
+  - 'mensagem: '
+  - 'mensagem:       &b+{coins} &fpor vencer o jogo'
+  coins_base:
+  - 'mensagem: '
+  - 'mensagem: &b{coins} coins ganhos nesta partida:'
+  - 'mensagem: {coins_win}{coins_beds}{coins_kills}'
+  - 'mensagem: '
+  win_solo:
+  - 'mensagem: '
+  - 'mensagem: {name} &7venceu a partida!'
+  - 'mensagem: '
+  win_team:
+  - 'mensagem: '
+  - 'mensagem: {name} &7venceram a partida!'
+  - 'mensagem: '
+  end:
+  - 'mensagem: '
+  - 'mensagem: &7O tempo acabou, não houve ganhadores.'
+  - 'mensagem: '
+  bed_destroy:
+  - 'mensagem: '
+  - 'mensagem: &b&lCAMA DESTRUIDA &8» &7A cama do time {team}&7 foi destruída por {name}'
+  - 'mensagem: '
+  bed_destroyself:
+  - 'mensagem: '
+  - 'mensagem: &b&lCAMA DESTRUIDA &8» &7A sua cama foi destruída por {name}'
+  - 'mensagem: '
+  team_eliminated:
+  - 'mensagem: '
+  - 'mensagem: &b&lTIME ELIMINADO &8» &7O time {team} &7foi eliminado!'
+  - 'mensagem: '

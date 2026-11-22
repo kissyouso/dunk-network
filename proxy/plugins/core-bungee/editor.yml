@@ -1,0 +1,7 @@
+enabled: true
+bind: 0.0.0.0
+port: 1031
+public-url: http://127.0.0.1:1031
+requests-per-minute: 240
+failed-logins-per-ten-minutes: 20
+max-body-bytes: 1048576

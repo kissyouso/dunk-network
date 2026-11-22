@@ -1,0 +1,345 @@
+{
+  "name": "Lanche",
+  "normal": true,
+  "build_limit": 20,
+  "locations": [
+    {
+      "name": "spawn",
+      "x": -50.96,
+      "y": 74.0,
+      "z": 53.98,
+      "yaw": 89.23,
+      "pitch": 0.17
+    },
+    {
+      "name": "map_limit_pos1",
+      "x": 22.87,
+      "y": 23.66,
+      "z": -17.01,
+      "yaw": 49.11,
+      "pitch": 3.65
+    },
+    {
+      "name": "map_limit_pos2",
+      "x": -120.63,
+      "y": 91.88,
+      "z": 118.52,
+      "yaw": 231.96,
+      "pitch": 32.95
+    },
+    {
+      "name": "red_spawn",
+      "x": -67.29,
+      "y": 41.0,
+      "z": 107.08,
+      "yaw": 178.84,
+      "pitch": 1.95
+    },
+    {
+      "name": "generator_red",
+      "x": -67.39,
+      "y": 40.5,
+      "z": 110.47,
+      "yaw": 112.23,
+      "pitch": 90.0
+    },
+    {
+      "name": "npc_shop_red",
+      "x": -72.51,
+      "y": 41.0,
+      "z": 107.02,
+      "yaw": 269.48,
+      "pitch": 3.57
+    },
+    {
+      "name": "npc_upgrade_red",
+      "x": -62.41,
+      "y": 41.0,
+      "z": 107.0,
+      "yaw": 89.74,
+      "pitch": 2.6
+    },
+    {
+      "name": "blue_spawn",
+      "x": -33.38,
+      "y": 41.0,
+      "z": 107.21,
+      "yaw": 179.28,
+      "pitch": 0.9
+    },
+    {
+      "name": "generator_blue",
+      "x": -33.36,
+      "y": 40.5,
+      "z": 110.76,
+      "yaw": 179.28,
+      "pitch": 0.9
+    },
+    {
+      "name": "npc_shop_blue",
+      "x": -38.54,
+      "y": 41.0,
+      "z": 106.95,
+      "yaw": 269.92,
+      "pitch": 1.95
+    },
+    {
+      "name": "npc_upgrade_blue",
+      "x": -28.3,
+      "y": 41.0,
+      "z": 106.95,
+      "yaw": 88.96,
+      "pitch": 2.44
+    },
+    {
+      "name": "blue_bed",
+      "x": -33.5,
+      "y": 41.0,
+      "z": 95.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "red_bed",
+      "x": -67.5,
+      "y": 41.0,
+      "z": 95.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "whit_bed",
+      "x": -69.5,
+      "y": 41.0,
+      "z": 16.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_whit",
+      "x": -69.46,
+      "y": 40.5,
+      "z": 0.47,
+      "yaw": 359.82,
+      "pitch": -2.5
+    },
+    {
+      "name": "npc_shop_whit",
+      "x": -64.3,
+      "y": 41.0,
+      "z": 4.04,
+      "yaw": 90.38,
+      "pitch": 1.46
+    },
+    {
+      "name": "npc_upgrade_whit",
+      "x": -74.7,
+      "y": 41.0,
+      "z": 4.03,
+      "yaw": 269.99,
+      "pitch": 2.19
+    },
+    {
+      "name": "yel_bed",
+      "x": -11.5,
+      "y": 41.0,
+      "z": 38.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_yel",
+      "x": 3.41,
+      "y": 40.5,
+      "z": 38.59,
+      "yaw": 90.15,
+      "pitch": 0.41
+    },
+    {
+      "name": "npc_shop_yel",
+      "x": -0.03,
+      "y": 41.0,
+      "z": 43.6,
+      "yaw": 179.74,
+      "pitch": 1.06
+    },
+    {
+      "name": "npc_upgrade_yel",
+      "x": -0.03,
+      "y": 41.0,
+      "z": 33.31,
+      "yaw": 359.51,
+      "pitch": 2.52
+    },
+    {
+      "name": "cyan_bed",
+      "x": -35.5,
+      "y": 41.0,
+      "z": 15.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_cyan",
+      "x": -35.62,
+      "y": 40.5,
+      "z": 0.52,
+      "yaw": 359.54,
+      "pitch": 1.22
+    },
+    {
+      "name": "npc_shop_cyan",
+      "x": -30.51,
+      "y": 41.0,
+      "z": 3.94,
+      "yaw": 90.91,
+      "pitch": 1.95
+    },
+    {
+      "name": "npc_upgrade_cyan",
+      "x": -40.7,
+      "y": 41.0,
+      "z": 4.01,
+      "yaw": 269.55,
+      "pitch": 0.82
+    },
+    {
+      "name": "purp_bed",
+      "x": -90.5,
+      "y": 41.0,
+      "z": 38.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_purp",
+      "x": -105.48,
+      "y": 40.5,
+      "z": 38.55,
+      "yaw": -88.69,
+      "pitch": -1.85
+    },
+    {
+      "name": "npc_shop_purp",
+      "x": -101.95,
+      "y": 41.0,
+      "z": 33.52,
+      "yaw": 0.25,
+      "pitch": 1.46
+    },
+    {
+      "name": "npc_upgrade_purp",
+      "x": -102.01,
+      "y": 41.0,
+      "z": 43.36,
+      "yaw": -179.0,
+      "pitch": -0.15
+    },
+    {
+      "name": "gray_bed",
+      "x": -89.5,
+      "y": 41.0,
+      "z": 72.5,
+      "yaw": 0.0,
+      "pitch": 0.0
+    },
+    {
+      "name": "generator_gray",
+      "x": -105.48,
+      "y": 40.5,
+      "z": 72.57,
+      "yaw": -89.9,
+      "pitch": -0.48
+    },
+    {
+      "name": "npc_shop_gray",
+      "x": -101.98,
+      "y": 41.0,
+      "z": 67.4,
+      "yaw": 0.98,
+      "pitch": 1.87
+    },
+    {
+      "name": "npc_upgrade_gray",
+      "x": -101.99,
+      "y": 41.0,
+      "z": 77.7,
+      "yaw": -179.73,
+      "pitch": 2.6
+    },
+    {
+      "name": "ore_generator_diamond_1",
+      "x": -67.51,
+      "y": 42.0,
+      "z": 72.6,
+      "yaw": -112.72,
+      "pitch": 87.49
+    },
+    {
+      "name": "ore_generator_diamond_2",
+      "x": -34.6,
+      "y": 42.0,
+      "z": 72.63,
+      "yaw": -83.91,
+      "pitch": 89.27
+    },
+    {
+      "name": "ore_generator_diamond_3",
+      "x": -34.54,
+      "y": 42.0,
+      "z": 38.82,
+      "yaw": -152.3,
+      "pitch": 87.33
+    },
+    {
+      "name": "ore_generator_diamond_4",
+      "x": -68.32,
+      "y": 42.0,
+      "z": 38.6,
+      "yaw": -281.78,
+      "pitch": 90.0
+    },
+    {
+      "name": "ore_generator_emerald_1",
+      "x": -56.82,
+      "y": 42.0,
+      "z": 48.34,
+      "yaw": -40.91,
+      "pitch": 90.0
+    },
+    {
+      "name": "ore_generator_emerald_2",
+      "x": -45.74,
+      "y": 42.0,
+      "z": 48.84,
+      "yaw": -108.08,
+      "pitch": 79.56
+    },
+    {
+      "name": "ore_generator_emerald_3",
+      "x": -45.62,
+      "y": 42.0,
+      "z": 59.44,
+      "yaw": -353.24,
+      "pitch": 90.0
+    },
+    {
+      "name": "ore_generator_emerald_4",
+      "x": -56.61,
+      "y": 42.0,
+      "z": 59.46,
+      "yaw": -267.94,
+      "pitch": 90.0
+    }
+  ],
+  "area_protection": {
+    "frontAndBack": 9,
+    "up": 7,
+    "side": 6
+  },
+  "island_area": {
+    "frontAndBack": 17,
+    "up": 0,
+    "sides": 10
+  }
+}

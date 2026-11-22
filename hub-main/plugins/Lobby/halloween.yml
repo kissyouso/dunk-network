@@ -1,0 +1,53 @@
+enabled: true
+required: 10
+candies:
+  '1':
+    world: world
+    x: -16
+    y: 85
+    z: -10
+  '2':
+    world: world
+    x: 19
+    y: 85
+    z: -18
+  '3':
+    world: world
+    x: 40
+    y: 91
+    z: -3
+  '4':
+    world: world
+    x: 47
+    y: 89
+    z: 0
+  '5':
+    world: world
+    x: 56
+    y: 95
+    z: 16
+  '6':
+    world: world
+    x: 53
+    y: 95
+    z: 40
+  '7':
+    world: world
+    x: 53
+    y: 105
+    z: 87
+  '8':
+    world: world
+    x: -56
+    y: 97
+    z: 33
+  '9':
+    world: world
+    x: -31
+    y: 99
+    z: 15
+  '10':
+    world: world
+    x: -23
+    y: 85
+    z: 17

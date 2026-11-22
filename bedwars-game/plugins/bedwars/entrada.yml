@@ -1,0 +1,52 @@
+version: 6
+menu:
+  title: '&8Mensagens de Entrada'
+  size: 27
+messages:
+  no-permission: '&cVoce nao tem permissao para usar essa entrada.'
+  selected: '&aEntrada selecionada: &f{entrada}'
+  already: '&eEssa entrada ja esta selecionada.'
+entradas:
+  padrao:
+    slot: 10
+    icon: NAME_TAG
+    name: '&aEntrada Padrao'
+    lore: '&7Mensagem simples de entrada.'
+    permission: ''
+    message: '%nickcomtag% &6Entrou no Lobby!'
+  surfando:
+    slot: 11
+    icon: FEATHER
+    name: '&bSurfando'
+    lore: '&7Chegue no lobby surfando.'
+    permission: wbedwars.entrada.surfando
+    message: |-
+      &c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--&c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--
+
+      %nickcomtag% &6Chegou Surfando!
+
+      &c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--&c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--
+  desenvolvendo:
+    slot: 12
+    icon: FEATHER
+    name: '&cDesenvolvendo'
+    lore: '&7Chegue desenvolvendo.'
+    permission: wbedwars.entrada.desenvolvendo
+    message: |-
+      &c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--&c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--
+
+      %nickcomtag% &6Chegou Desenvolvendo!
+
+      &c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--&c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--
+  brilhando:
+    slot: 13
+    icon: FEATHER
+    name: '&eBrilhando'
+    lore: '&7Chegue brilhando.'
+    permission: wbedwars.entrada.brilhando
+    message: |-
+      &c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--&c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--
+
+      %nickcomtag% &eChegou Brilhando!
+
+      &c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--&c&l&m--&6&l&m--&e&l&m--&a&l&m--&b&l&m--&3&l&m--&9&l&m--&d&l&m--&5&l&m--

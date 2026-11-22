@@ -1,0 +1,120 @@
+roles:
+  dono:
+    position: 1
+    name: '&4Dono'
+    prefix: '&4&lDONO &4'
+    permission: 'role.dono'
+    MenuTags: false
+    alwaysvisible: true
+  diretor:
+    position: 1
+    name: '&3Direção'
+    prefix: '&3&lDIREÇÃO &3'
+    permission: 'role.diretor'
+    MenuTags: false
+    alwaysvisible: true
+  admin:
+    position: 2
+    name: '&4Admin'
+    prefix: '&4&lADMIN &c'
+    permission: 'role.admin'
+    MenuTags: false
+    alwaysvisible: true
+  modplus:
+    position: 3
+    name: '&5Mod+'
+    prefix: '&5&lMOD&6+ &5'
+    permission: 'role.modplus'
+    MenuTags: false
+    alwaysvisible: true
+  mod:
+    position: 4
+    name: '&5Mod'
+    prefix: '&5&lMOD &5'
+    permission: 'role.mod'
+    MenuTags: false
+    alwaysvisible: true
+  trial:
+    position: 5
+    name: '&5Trial'
+    prefix: '&5&lTRIAL &5'
+    permission: 'role.trial'
+    MenuTags: false
+    alwaysvisible: true
+  ajudante:
+    position: 6
+    name: '&9Ajudante'
+    prefix: '&9&lAJUDANTE &9'
+    permission: 'role.ajudante'
+    MenuTags: false
+    alwaysvisible: true
+  builder:
+    position: 7
+    name: '&2Builder'
+    prefix: '&2&lBUILDER &2'
+    permission: 'role.builder'
+    MenuTags: false
+    alwaysvisible: true
+  developer:
+    position: 5
+    name: '&9Developer'
+    prefix: '&9&lDEVELOPER &9'
+    permission: 'role.developer'
+    MenuTags: false
+    alwaysvisible: true
+  studio:
+    position: 9
+    name: '&5Studio'
+    prefix: '&5&lSTUDIO &5'
+    permission: 'role.studio'
+    MenuTags: false
+    alwaysvisible: true
+  partnerplus:
+    position: 10
+    name: '&3Creator+'
+    prefix: '&3&lCREATOR+ &3'
+    permission: 'role.partnerplus'
+    MenuTags: true
+    alwaysvisible: false
+  partner:
+    position: 11
+    name: '&bCreator'
+    prefix: '&b&lCREATOR &b'
+    permission: 'role.partner'
+    MenuTags: true
+    alwaysvisible: false
+  beta:
+    position: 9
+    name: '&1Beta'
+    prefix: '&1&lBETA &1'
+    permission: 'role.beta'
+    MenuTags: true
+    alwaysvisible: false
+  pro:
+    position: 25
+    name: '&6Pro'
+    prefix: '&6&lPRO &6'
+    permission: 'role.pro'
+    MenuTags: true
+    alwaysvisible: false
+  mvp:
+    position: 26
+    name: '&9Mvp'
+    prefix: '&9&lMVP &9'
+    permission: 'role.mvp'
+    MenuTags: true
+    alwaysvisible: false
+  vip:
+    position: 19
+    name: '&aVip'
+    prefix: '&a&lVIP &a'
+    permission: 'role.vip'
+    MenuTags: true
+    alwaysvisible: false
+  membro:
+    position: 20
+    name: '&7Membro'
+    prefix: '&7'
+    permission: ''
+    MenuTags: false
+    alwaysvisible: true

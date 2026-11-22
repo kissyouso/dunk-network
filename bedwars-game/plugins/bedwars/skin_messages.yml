@@ -1,0 +1,15 @@
+no-permission: '&cVocê não tem permissão para usar isto.'
+skin-success: '&aSua skin foi alterada para &f%skin%&a.'
+skin-error: '&cNão foi possível aplicar esta skin. Veja o console.'
+skin-not-found: '&cNão foi possível encontrar a skin &f%skin%&c. Veja o console.'
+skin-reset: '&aSua skin foi resetada.'
+custom-instruction: '&eUse &b/skin <skin> &epara escolher uma skin customizada.'
+help: |-
+  &aComandos do wSkin:
+  &f/skin <nick> &7- Usar skin customizada.
+  &f/skin menu &7- Abrir menu de skins.
+  &f/skin reset &7- Resetar skin salva.
+  &f/skin debug &7- Testar debug no console.
+  &f/skin set <player> <skin> &7- Setar skin em outro jogador.
+  &f/skin reload &7- Recarregar configs.
+  &f/skin clearcache &7- Limpar cache de skins.

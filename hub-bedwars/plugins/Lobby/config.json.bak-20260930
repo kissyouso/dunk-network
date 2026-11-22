@@ -1,0 +1,277 @@
+{
+  "server": "HUB_BEDWARS",
+  "locations": [
+    {
+      "name": "npc_solo",
+      "world": "world",
+      "x": 44.5,
+      "y": 122.0,
+      "z": -63.5,
+      "yaw": -88.619545,
+      "pitch": 4.3392587
+    },
+    {
+      "name": "npc_duo",
+      "world": "world",
+      "x": 42.5,
+      "y": 122.0,
+      "z": -66.5,
+      "yaw": -90.07472,
+      "pitch": 2.787055
+    },
+    {
+      "name": "leaderboard_rank",
+      "world": "world",
+      "x": 45.52759939906495,
+      "y": 122.0,
+      "z": -68.51121850570034,
+      "yaw": -90.07399,
+      "pitch": 7.249561
+    },
+    {
+      "name": "leaderboard_selector",
+      "world": "world",
+      "x": 32.449125505786064,
+      "y": 121.68328115079682,
+      "z": -50.99856436925603,
+      "yaw": -179.55396,
+      "pitch": 0.15014294
+    },
+    {
+      "name": "leaderboard_period_selector",
+      "world": "world",
+      "x": 34.431639307954825,
+      "y": 121.32121119601227,
+      "z": -51.10348719256958,
+      "yaw": -177.90277,
+      "pitch": 4.800284
+    },
+    {
+      "name": "npc_stats",
+      "world": "world",
+      "x": 107.41291221868941,
+      "y": 120.0,
+      "z": -61.41013426345747,
+      "yaw": 214.20929,
+      "pitch": 2.1016576,
+      "skinValue": "ewogICJ0aW1lc3RhbXAiIDogMTc4MzkwNTM1ODc5NywKICAicHJvZmlsZUlkIiA6ICIyYTk2NGNkNDg5NWQ0MDk5YjVmZTdmMTQ1NzVmYTg3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJldGhhYW5zeiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYzhkOTVlMTM3NDJhYWY0MmNlZDQzY2QxYWUwNzU2YTZhMWM4NTBkZGVhM2E3ZTMyYzg2OGY1YTFjNTY4MGJmIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZWM5MzBjZGQyNjI5Yzg3NzE2NTVjNjBlZWJlYjg2N2I0YjY1NTliMGU2ZDNiYzcxYzQwYzk2MzQ3ZmEwM2YwIgogICAgfQogIH0KfQ\u003d\u003d",
+      "skinSignature": "Q/haD1X9k95NWoS5nRfgFXmDhNSK6QTKO4Zvb37M14LKwiId4b1EaHXKaeeucQCU4vUv1etm0Hf6u2Yv1O+LA0tGhbtEQTvbzfoAddy/7M7hWEimWa5QP3t9tYQjfu13Z6+tJLCHbMBeVrUIbJMk01qOiQ+WOGCdy+AGMUQ1ZapYB6T+P+qhRbCRo043Ch/xxNLOsfrO3r+oafEMRtLjREOyXzp4OaJ8CvCC+eJyyAGLIvb/lM4hYcM5oO6Y5ASB98FhIBXrVRN6HWNoi6tK/tn7pyw4uaZPrqD6B8vlVtmIxDY4nqv0Tr3o3AigN/xy0NgtI/rJD3nAZ6ZSLB/HkYS6w+s48rnTGOgAGD+NoC/PiSukA9dljNJw5XNXXuH4i1ON2RPbIhM1itHkCV41qZHbe+KdpsQ69BOpw0hGXFshdkG+327hCRAmcgXzr7DU6Wjdemm2rLpDLMgEVLH2GfTOTlgATwvwpM+yaSxMiXqbXK/B60j01sVf7+qRM+T/IAPSSeTJmOsoXNFDWJOfw+g+UOXz8icHvwESszj0JLkIVHfNVHyEpI0+sEVJvCcY8M/ASO6ItLDBSjXG+xAGWLvPKp1wkhiWup5u2HBbM+i2WkIFLi2xYgKIWkyMzVlU4melma82aUHAN6NSbUFs4I3NdnjP7zcf2wJQH6ZBXp0\u003d"
+    },
+    {
+      "name": "npc_top_1",
+      "world": "world",
+      "x": 49.542568460010415,
+      "y": 121.0,
+      "z": -54.501802050772696,
+      "yaw": -314.55795,
+      "pitch": 17.753271
+    },
+    {
+      "name": "spawn",
+      "world": "world",
+      "x": 387.5,
+      "y": 113.0,
+      "z": 1375.5,
+      "yaw": 179.37134,
+      "pitch": -1.2404438
+    },
+    {
+      "name": "npc_bw",
+      "world": "world",
+      "x": 42.37491708370154,
+      "y": 122.0,
+      "z": -69.50423646313831,
+      "yaw": -90.754845,
+      "pitch": 3.150157
+    },
+    {
+      "name": "modos",
+      "world": "world",
+      "x": 32.92522175391554,
+      "y": 122.04113016106226,
+      "z": -51.29678428809088,
+      "yaw": -177.30244,
+      "pitch": 7.5005608
+    },
+    {
+      "name": "mods",
+      "world": "world",
+      "x": 8.89178827898343,
+      "y": 62.249552497666436,
+      "z": 15.600279911668935,
+      "yaw": -330.15103,
+      "pitch": 28.2005
+    },
+    {
+      "name": "leaderboard_level",
+      "world": "world",
+      "x": 45.43259087353936,
+      "y": 122.76624010480604,
+      "z": -53.52149472832868,
+      "yaw": -180.00456,
+      "pitch": 59.150475
+    },
+    {
+      "name": "leaderboard_kill",
+      "world": "world",
+      "x": 40.54891966160518,
+      "y": 122.78033872482041,
+      "z": -51.452305002868165,
+      "yaw": -181.36263,
+      "pitch": 51.583637
+    },
+    {
+      "name": "leaderboard_wins",
+      "world": "world",
+      "x": 37.8442368482846,
+      "y": 122.79815891361328,
+      "z": -51.627007516119455,
+      "yaw": -153.71323,
+      "pitch": 36.93493
+    },
+    {
+      "name": "npc_trio",
+      "world": "world",
+      "x": 42.5,
+      "y": 122.0,
+      "z": -70.5,
+      "yaw": -91.43279,
+      "pitch": 1.9139624
+    },
+    {
+      "name": "npc_duels",
+      "world": "world",
+      "x": 44.5,
+      "y": 122.0,
+      "z": -63.5,
+      "yaw": -90.85894,
+      "pitch": 3.5631313
+    },
+    {
+      "name": "npc_versus",
+      "world": "world",
+      "x": 43.5,
+      "y": 122.0,
+      "z": -73.5,
+      "yaw": -91.43279,
+      "pitch": 0.7498384
+    },
+    {
+      "name": "npc_ranked",
+      "world": "world",
+      "x": 45.5,
+      "y": 122.0,
+      "z": -68.5,
+      "yaw": -90.192505,
+      "pitch": 2.204978
+    },
+    {
+      "name": "duplaa",
+      "world": "world",
+      "x": 42.5,
+      "y": 122.0,
+      "z": -66.5,
+      "yaw": -90.07472,
+      "pitch": 2.787055
+    },
+    {
+      "name": "trios",
+      "world": "world",
+      "x": 42.5,
+      "y": 122.0,
+      "z": -70.5,
+      "yaw": -91.43279,
+      "pitch": 1.9139624
+    },
+    {
+      "name": "leaderboard_bed_destruction",
+      "world": "world",
+      "x": 43.521117996144405,
+      "y": 122.78033872482041,
+      "z": -52.13917675795211,
+      "yaw": -179.6165,
+      "pitch": 61.090706
+    },
+    {
+      "name": "leaderboard_ranked",
+      "world": "world",
+      "x": 45.535974901500246,
+      "y": 123.15473179307465,
+      "z": -80.4175597205342,
+      "yaw": -3.3625183,
+      "pitch": 64.777145
+    },
+    {
+      "name": "nivel",
+      "world": "world",
+      "x": 45.43259087353936,
+      "y": 121.0,
+      "z": -53.52149472832868,
+      "yaw": -179.13147,
+      "pitch": 17.047678
+    },
+    {
+      "name": "win",
+      "world": "world",
+      "x": 35.40756565658964,
+      "y": 122.05823658021141,
+      "z": -52.67301667069468,
+      "yaw": -156.23552,
+      "pitch": 38.19608
+    },
+    {
+      "name": "ranked",
+      "world": "world",
+      "x": 45.52759939906495,
+      "y": 122.0,
+      "z": -68.51121850570034,
+      "yaw": -90.07399,
+      "pitch": 7.249561
+    },
+    {
+      "name": "ranke",
+      "world": "world",
+      "x": 45.52759939906495,
+      "y": 122.0,
+      "z": -68.51121850570034,
+      "yaw": -90.07399,
+      "pitch": 7.249561
+    },
+    {
+      "name": "ws",
+      "world": "world",
+      "x": 35.40756565658964,
+      "y": 122.05823658021141,
+      "z": -52.67301667069468,
+      "yaw": -156.23552,
+      "pitch": 38.19608
+    },
+    {
+      "name": "top",
+      "world": "world",
+      "x": 49.542568460010415,
+      "y": 121.0,
+      "z": -54.501802050772696,
+      "yaw": -314.55795,
+      "pitch": 17.753271
+    },
+    {
+      "name": "leaderboard_winstreak",
+      "world": "world",
+      "x": 35.65601916543071,
+      "y": 122.78789919439484,
+      "z": -52.633381969092625,
+      "yaw": 187.9593,
+      "pitch": 20.372553
+    },
+    {
+      "name": "winstrek",
+      "world": "world",
+      "x": 35.65601916543071,
+      "y": 122.04797686099297,
+      "z": -52.633381969092625,
+      "yaw": 187.28023,
+      "pitch": 21.827719
+    }
+  ]
+}
